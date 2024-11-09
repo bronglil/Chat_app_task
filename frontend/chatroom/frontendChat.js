@@ -106,6 +106,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.username-input, .new-message-input').forEach(input => {
         input.addEventListener('input', toggle_send_button);
     });
-
+    console.log('Script loaded');
     toggle_send_button();
 });
